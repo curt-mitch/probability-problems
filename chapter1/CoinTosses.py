@@ -1,6 +1,6 @@
 import random
 
-# problem 1
+#problem 1
 def coinTosses():
   number = input("Number of times to flip the coin:")
   recordCount = { "T": 0, "H": 0 }
@@ -16,3 +16,4 @@ def coinTosses():
       print "proportion of heads: " + str(1.0 * recordCount["T"] / amount - 0.5)
 
 coinTosses()
+# the proportion of heads tosses does not appear to approach zero consistently
